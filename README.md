@@ -1,1 +1,5 @@
 # Face recognition login system
+
+I utilized Amazon Rekognition to build a sophisticated facial recognition system. This system was seamlessly integrated with AWS S3 for storage, AWS Lambda for serverless computing, and DynamoDB for database management, culminating in a highly functional face login and registration system. The integration of these AWS services demonstrates my adeptness in leveraging cloud technologies for creating cutting-edge solutions.
+
+To further enhance the system's efficiency and scalability, I implemented a serverless backend architecture using AWS Lambda. This choice not only streamlined the application's performance but also significantly reduced the need for traditional server management. Additionally, by managing data with DynamoDB, I showcased my proficiency in handling cloud-based data storage and database optimization, ensuring a robust and scalable infrastructure.
