@@ -11,15 +11,7 @@ This project demonstrates the creation of an advanced facial recognition system 
 ## System Architecture
 The system integrates various AWS services to create a seamless face recognition solution. AWS Lambda forms the backbone of the system, providing a serverless architecture that reduces the need for traditional server management. AWS S3 is used for storing facial images, and DynamoDB is employed for efficient data handling and management.
 
-## Code Description
-## Dependencies
-  - boto3
-  - decimal
-  - json
-  - urllib
-
 ## Key Components
-
 1. AWS Lambda Handler (lambda_handler): Acts as the main function triggered by AWS Lambda. It processes S3 event data to manage face recognition tasks.
 2. Index Faces (index_faces): Calls the Amazon Rekognition IndexFaces API to detect and index faces from images stored in S3.
 3. Update DynamoDB Index (update_index): Updates the DynamoDB table with face recognition data (FaceId and FullName).
